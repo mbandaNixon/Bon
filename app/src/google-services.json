@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "496202168762",
+    "firebase_url": "https://bonn-dc22a.firebaseio.com",
+    "project_id": "bonn-dc22a",
+    "storage_bucket": "bonn-dc22a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496202168762:android:a78c780292a5a1db",
+        "android_client_info": {
+          "package_name": "com.example.laptop.bon.cart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496202168762-takfe45gh8v3k2c04uoalljg9q1i8t3h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.laptop.bon.cart",
+            "certificate_hash": "b3751b13121d929b9c7f3c6712b96cf68ecc04d5"
+          }
+        },
+        {
+          "client_id": "496202168762-3b82o60efbfg4bets3lpgsp2523r73th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKrdJoXrbZOLAtsvRapXiv-APCQp7eLmg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496202168762-3b82o60efbfg4bets3lpgsp2523r73th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

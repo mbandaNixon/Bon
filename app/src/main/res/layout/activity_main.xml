@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:background="#c6ccf1"
+    tools:context=".ShoptoAdd">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAlignment="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="ChooseCategory You wanna Add !"
+            android:textSize="17dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:textAlignment="center">
+
+         <TextView
+             android:id="@+id/catOne"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/computers"
+             android:textAlignment="center"
+             android:padding="10dp"
+             android:textSize="19dp"
+             android:background="@drawable/round_cornner"
+             android:textStyle="bold"/>
+
+     </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/catTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_cornner"
+            android:padding="10dp"
+            android:text="@string/televisions"
+            android:textAlignment="center"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/catThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/laptops"
+            android:background="@drawable/round_cornner"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textSize="19dp"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/catFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phones"
+            android:background="@drawable/round_cornner"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textSize="19dp"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+
+</TableLayout>

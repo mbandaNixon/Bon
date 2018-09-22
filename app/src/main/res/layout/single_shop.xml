@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/catPic_"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:adjustViewBounds="true"
+            android:contentDescription=""
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@color/common_google_signin_btn_text_dark_disabled"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/catName_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+             android:textSize="20dp"
+            android:hint="Title will be here"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="4.10"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:text="KSH : "
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_green_light" />
+
+            <TextView
+                android:id="@+id/catPrice_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:hint="Text will be here"
+                android:textAlignment="center"
+                android:layout_weight="1.3"
+                android:layout_marginBottom="5dp"
+                 />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/catDesc_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:hint="Name of poster will be here"
+             android:layout_marginBottom="5dp"
+            android:layout_weight="4.10"
+            android:gravity="center" />
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

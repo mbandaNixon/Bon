@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "713371680285",
+    "firebase_url": "https://bon-one.firebaseio.com",
+    "project_id": "bon-one",
+    "storage_bucket": "bon-one.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713371680285:android:8270fc91c9d81209",
+        "android_client_info": {
+          "package_name": "com.example.laptop.bon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713371680285-jfkbphbtj28j31gs626nuhk8vgh9a87v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.laptop.bon",
+            "certificate_hash": "b3751b13121d929b9c7f3c6712b96cf68ecc04d5"
+          }
+        },
+        {
+          "client_id": "713371680285-q53j3lfl1a2hp74ot0snpvfroktchv03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqn84WBUTAgmyuXzkQNHCJA9bBILCajxw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713371680285-q53j3lfl1a2hp74ot0snpvfroktchv03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
